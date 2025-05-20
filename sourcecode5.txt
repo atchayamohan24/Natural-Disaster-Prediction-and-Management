@@ -1,0 +1,31 @@
+ (Flood Risk Prediction):
+
+del predict_flood(rainfall_mm, river_level_m, soil_moisture_percent):
+
+if rainfall mm 100 and river_level_m > 4.0 and soil_moisture_percent > 80:
+
+retum "High Risk: Immediate flood warning!"
+
+elif rainfall_mm > 80 and river_level_m > 3.5:
+
+retum "Moderate Risk: Stay alert for flood alerts."
+
+elif rainfall mm > 50:
+
+return "Low Risk: Monitor weather updates."
+
+else:
+
+retum 'No Risk: Conditions are normal."
+
+
+#Example input
+
+result predict flood(120, 4.2, 85)
+
+print('Flood Prediction Result", result)
+
+
+Output:
+
+Flood Prediction Result: High Risk: Immediate flood warning!
